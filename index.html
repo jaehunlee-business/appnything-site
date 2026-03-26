@@ -4,112 +4,87 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Appnything</title>
-  <meta name="description" content="Apps supported by Appnything, plus official privacy policies and support pages." />
+  <meta
+    name="description"
+    content="Appnything is an umbrella brand turning ideas into apps."
+  />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/appnything-logo-white.png" alt="Appnything logo" />
-        <span class="brand-wordmark">Appnything</span>
-      </a>
-      <nav>
-        <a href="#apps">Apps</a>
-        <a href="/support/">Support</a>
-      </nav>
-    </div>
-  </header>
+  <div class="site-shell">
+    <header class="hero">
+      <div class="hero-inner">
+        <img
+          src="assets/appnything-logo.png"
+          alt="Appnything logo"
+          class="brand-logo"
+        />
 
-  <main>
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <span class="eyebrow">Umbrella brand</span>
+        <p class="eyebrow">Appnything</p>
         <h1>Turning ideas into apps.</h1>
-        <p>
-          Appnything is the official home for apps supported by Appnything,
-          including product pages, support details, and privacy policies.
+        <p class="hero-copy">
+          Apps supported by Appnything, with official support pages and privacy policies.
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#apps">View apps</a>
-          <a class="button" href="/support/">Get support</a>
-        </div>
       </div>
+    </header>
 
-      <aside class="card hero-card">
-        <div class="hero-panel">
-          <div class="hero-panel-item">
-            <strong>Official resources</strong>
-            <span>Privacy pages, support information, and future releases in one place.</span>
-          </div>
-          <div class="hero-panel-item">
-            <strong>Built under Appnything</strong>
-            <span>A premium, evolving umbrella brand for ideas that become products.</span>
-          </div>
-          <div class="hero-panel-item">
-            <strong>Designed to grow</strong>
-            <span>New app pages can be added as the Appnything ecosystem expands.</span>
-          </div>
+    <main class="content">
+      <section class="section">
+        <div class="section-heading">
+          <p class="section-label">Apps</p>
+          <h2>Supported apps</h2>
         </div>
-      </aside>
-    </section>
 
-    <section id="apps" class="wrap section">
-      <div class="section-heading">
-        <span class="eyebrow">Apps</span>
-        <h2>Current and upcoming</h2>
-      </div>
+        <div class="apps-grid">
+          <article class="app-card">
+            <div class="app-card-top">
+              <img
+                src="assets/checklist-logo.png"
+                alt="Checklist App icon"
+                class="app-icon"
+              />
 
-      <div class="grid two">
-        <article class="card app-card">
-          <div>
-            <div class="app-top">
-              <img class="app-icon" src="/assets/checklist-logo.png" alt="Checklist App icon" />
-              <div>
+              <div class="app-meta">
                 <h3>Checklist App</h3>
-                <p>Habit and routine tracking app by Appnything.</p>
+                <p>
+                  A focused checklist experience supported by Appnything.
+                </p>
               </div>
             </div>
-          </div>
-          <div class="stack-links">
-            <a class="inline-link" href="/checklist-app/privacy/"><span>Privacy Policy</span><span>↗</span></a>
-            <a class="inline-link" href="/support/"><span>Support</span><span>↗</span></a>
-          </div>
-        </article>
 
-        <article class="card app-card">
-          <div>
-            <div class="app-top">
-              <div class="app-icon placeholder">+</div>
-              <div>
+            <div class="app-links">
+              <a href="/checklist-app/privacy/">Privacy Policy</a>
+              <a href="/support/">Support</a>
+            </div>
+          </article>
+
+          <article class="app-card coming-soon">
+            <div class="app-card-top">
+              <div class="coming-soon-icon">+</div>
+
+              <div class="app-meta">
                 <h3>Future App</h3>
-                <p>Another Appnything product is on the way.</p>
+                <p>
+                  Another app under Appnything is coming soon.
+                </p>
               </div>
             </div>
-          </div>
-          <div class="stack-links">
-            <span class="status-pill">Coming soon</span>
-            <a class="inline-link" href="/templates/privacy-template/"><span>View privacy template</span><span>↗</span></a>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <div class="footer-brand">
-          <img class="footer-mark" src="/assets/appnything-logo-white.png" alt="Appnything logo" />
-          <strong>Appnything</strong>
+            <div class="coming-soon-badge">Coming soon</div>
+          </article>
         </div>
-        <p class="footer-text">Apps supported by Appnything.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© 2026 Appnything</p>
+        <nav class="footer-nav">
+          <a href="/support/">Support</a>
+          <a href="/checklist-app/privacy/">Privacy</a>
+        </nav>
       </div>
-      <div class="footer-links">
-        <a href="/support/">Support</a>
-        <a href="/checklist-app/privacy/">Checklist App Privacy</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
